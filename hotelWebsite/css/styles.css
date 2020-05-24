@@ -22,3 +22,39 @@ h1,h2,h3{
 p{
     margin: 10px 0;
 }
+/* navbar */
+#navbar{
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a{
+    color: #fff;
+
+}
+
+#navbar h1{
+    float: left;
+    padding: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover{
+    background: #444;
+    color: #f7c08a;
+}
