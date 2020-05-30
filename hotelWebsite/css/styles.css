@@ -69,3 +69,13 @@ p{
     color: #f7c08a;
 }
 
+/* Showcase */
+
+#showcase{
+    background: url('../img/showcase.jpg') no-repeat center center;
+    height: 600px;
+}
+
+#showcase .showcase-content{
+    color: #fff;
+}
