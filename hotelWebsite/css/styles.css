@@ -42,6 +42,13 @@ p{
     background: #333;
     padding: 13px 20px;
     border: none;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    background: #f7c08a;
+    color: #333;
 }
 
 .lead{
