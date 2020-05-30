@@ -63,6 +63,16 @@ p{
     background: #333;
     color: #fff;
 }
+
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary{
+    background: #333;
+    color: #f7c08a;
+}
 /* navbar */
 #navbar{
     background: #333;
@@ -132,6 +142,8 @@ p{
 }
 
 #home-info .info-img{
+    /* With float left the section moves to the left and with width I'm saying that the half of screen is going to be for the img */
+    /* with min-height its sure that the img is going to appear and also is goig to take the entire heigth of the div (400px); */
     float: left;
     width: 50%;
     background: url('../img/photo-1.jpg') no-repeat;
@@ -145,5 +157,9 @@ p{
     text-align: center;
     padding: 50px 30px;
     overflow: hidden;
+}
+
+#home-info .info-content p{
+    padding-bottom: 30px;
 }
 
