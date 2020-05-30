@@ -72,6 +72,11 @@ p{
 .bg-primary{
     background: #f7c08a;
     color: #333;
+
+}
+
+.clr{
+    clear: both;
 }
 /* navbar */
 #navbar{
@@ -174,4 +179,13 @@ p{
 
 .box i{
     margin-bottom: 10px;
+}
+
+/* Main Footer */
+
+#main-footer{
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
 }
