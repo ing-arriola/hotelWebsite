@@ -78,6 +78,14 @@ p{
 .clr{
     clear: both;
 }
+
+.py-1{padding: 10px 0;}
+.py-2{padding: 20px 0;}
+.py-3{padding: 30px 0;}
+
+.l-heading{
+    font-size: 40px;
+}
 /* navbar */
 #navbar{
     background: #333;
@@ -180,6 +188,29 @@ p{
 .box i{
     margin-bottom: 10px;
 }
+
+/* about page first section */
+
+#about-info .info-right{
+    width: 50%;
+    float: right;
+    min-height: 100%;
+}
+
+#about-info .info-right img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+
+}
+
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
 
 /* Main Footer */
 
