@@ -13,10 +13,10 @@
 }
 
 /* Home info */
-
+/* 
 #home-info{
     height: 550px;
-}
+} */
 
 #home-info .info-img{
     display: none;
@@ -26,4 +26,26 @@
 #home-info .info-content{
     float: none;
     width: 100%;
+}
+
+/* boxes */
+
+.box{
+    float: none;
+    width: 100%;
+}
+
+/* About page */
+
+#about-info .info-right, #about-info .info-left{
+    float: none;
+    width: 100%;
+}
+
+#about-info .info-right{
+    margin-top: 30px;
+}
+
+#about-info .info-left h1{
+    text-align: center;
 }
